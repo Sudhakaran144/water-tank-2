@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="tank">
+                <div class="tank-container">
+                    <div id="water1" class="water"></div>
+                </div>
+                <div class="t-v-pipe"></div>
+                <button id="btn1" class="button-d btn"  onclick="toggleWaterLevel(1)"></button>
+                <div class="t-h-pipe"></div>
+                <div class="" id="waterflow1"></div>
+            </div>
+            <div class="tank">
+                <div class="tank-container">
+                    <div id="water2" class="water"></div>
+                </div>
+                <div class="t-v-pipe"></div>
+                <button id="btn2" class="button-d btn"  onclick="toggleWaterLevel(2)"></button>
+                <div class="t-h-pipe"></div>
+                <div class="" id="waterflow2"></div>
+            </div>
+            <div class="tank">
+                <div class="tank-container">
+                    <div id="water3" class="water"></div>
+                </div>
+                <div class="t-v-pipe"></div>
+                <button id="btn3" class="button-d btn"  onclick="toggleWaterLevel(3)"></button>
+                <div class="t-h-pipe"></div>
+                <div class="" id="waterflow3"></div>
+            </div>
+        </div>
+        <div class="big-container">
+            <div class="b-c">
+                <div class="water-storage" id="w-storage">
+                </div>                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
